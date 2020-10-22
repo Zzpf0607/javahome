@@ -1,9 +1,10 @@
-# javahome
-homework   
+# 计G201  张鹏飞  2020322072
+  
 
-#阅读程序
+#阅读程序  
 
-```
+```  
+
 package zpfjava;
 public class Test {
 	public static void main(String[] args) {
@@ -18,7 +19,8 @@ public class Test {
 	}
 }
 
-```
+```  
+
 ##实验目的  
 
 计算计算机中CPU的速度和硬盘容量  
@@ -30,12 +32,14 @@ public class Test {
 
 1.cpu类中变量都是private类型  
 ```  
+
 public class CPU {
 	private int sd;    
 	private float jg;    
 	private String zl;  
 	CPU(){
-		}  
+		}    
+		
 ```
 2.在cpu类中添加了逻辑判断，判断价格是否符合要求  
 ```
@@ -49,16 +53,19 @@ public class CPU {
 	 }
 ```
 3.cpu和hd类中都运用了构造方法  
-```
+```  
+
 	CPU(int speed,float price,String type){
 		this.sd=sd;
 		this.jg=jg;
 		this.zl=zl;         
-	}
+	}  
+	
 ```  
 
 4.在test类中用show（）方法输出结果  
-```
+```  
+
 public class Test {
 	public static void main(String[] args) {
 		CPU cpu = new CPU();   
@@ -69,7 +76,8 @@ public class Test {
 		pc.setCpu(cpu);
 		pc.setDisk(disk);
 		pc.show();
-	}
+	}  
+	
 ```  
 
 
