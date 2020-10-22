@@ -2,7 +2,6 @@
   
 
 #阅读程序  
-
 ```  
 package zpfjava;
 public class Test {
@@ -15,10 +14,9 @@ public class Test {
 		pc.setCpu(cpu);
 		pc.setDisk(disk);
 		pc.show();
-	}
-}
-
-```  
+	
+}  
+```
 
 ##实验目的  
 
